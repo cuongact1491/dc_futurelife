@@ -1,0 +1,10 @@
+/** 2.2. Default base **/
+/** 2.2.1.	Button **/
+.btn {
+	color: #333;
+	background: #fff;
+	border: 1px solid #ccc;
+	&.btn-primary {
+		color: $brand-primary;
+	}
+}

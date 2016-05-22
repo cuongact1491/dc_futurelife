@@ -1,0 +1,46 @@
+/** 6.2.1. General **/
+#header {
+	padding: 10px 0;
+	background: #bfbfbf;
+	.topbar {
+		background: #ccc;
+		padding: 0 10px;
+		font: italic bold 1.4rem/1.8rem $headings-font-family;
+	}
+}
+
+/** 6.2.2. Header version 1 **/
+#header {
+	&.header-v1 {
+		padding: 0;
+		background: #dfdfdf;
+		.topbar {
+			background: #808080;
+			padding: 10px;
+		}
+	}
+}
+
+/** 6.2.3. Header version 2 **/
+#header {
+	&.header-v2 {
+		padding: 0;
+		background: #212121;
+		.topbar {
+			background: transparent;
+			padding: 10px;
+		}
+	}
+}
+
+/** 6.2.4. Header version 3 **/
+#header {
+	&.header-v3 {
+		padding: 0;
+		background: #212121;
+		.topbar {
+			background: transparent;
+			padding: 10px;
+		}
+	}
+}
